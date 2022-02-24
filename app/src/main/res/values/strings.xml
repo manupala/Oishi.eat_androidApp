@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Oishi.eat</string>
+    <string name="app_author">Manuel Palamin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="menu_home">Ricette già create</string>
+    <string name="menu_gallery">Crea ricetta</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="homeRow_titolo">Titolo</string>
+    <string name="homeRow_sottotitolo">Sottotitolo</string>
+
+    <string-array name="udm_array">
+        <item>grammi</item>
+        <item>millilitri</item>
+        <item>millimetri</item>
+        <item>unità</item>
+        <item>pizzichi</item>
+        <item>cucchiai</item>
+        <item>q.b.</item>
+    </string-array>
+
+</resources>

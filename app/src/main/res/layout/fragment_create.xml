@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.createNew.CreateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:ems="10"
+                android:hint="nome ricetta"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtKCal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:ems="10"
+                android:hint="kCal"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/txtTempo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:ems="10"
+                android:hint="tempo di preparazione in minuti"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/image_background_default"
+                android:scaleType="fitCenter"/>
+
+            <Button
+                android:id="@+id/btnSelezionaImmagine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Seleziona"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/listViewCreate_Ingredienti"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/btnAggiungiIngrediente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Aggiungi Ingrediente"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/listViewCreate_Strumenti"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnAggiungiStrumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Aggiungi Strumento"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/listViewCreate_Step"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnAggiungiStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Aggiungi Step"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnCreaRicetta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="30dp"
+                android:text="Crea"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

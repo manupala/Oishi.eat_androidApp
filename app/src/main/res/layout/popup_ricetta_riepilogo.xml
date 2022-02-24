@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/apricot">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activityPreparazione_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="nome ricetta"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/activityPreparazione_tempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="tempo preparazione ricetta"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/activityPreparazione_kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="kCal ricetta"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/activityPreparazione_img"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/image_background_default"
+                android:scaleType="fitCenter"/>
+
+            <ListView
+                android:id="@+id/activityPreparazione_ingredienti"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/activityPreparazione_Strumenti"
+                android:layout_width="wrap_content"
+                android:layout_height="205dp"
+                android:layout_margin="15dp"
+                android:textAlignment="center" />
+
+            <ListView
+                android:id="@+id/activityPreparazione_Step"
+                android:layout_width="wrap_content"
+                android:layout_height="205dp"
+                android:layout_margin="15dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/activityPreparazione_btnInizia"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="inizia"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
