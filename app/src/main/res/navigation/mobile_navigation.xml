@@ -14,12 +14,12 @@
     <fragment
         android:id="@+id/nav_CreaRicetta"
         android:name="com.example.oishiweek_project.ui.createNew.CreateFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_createNew"
         tools:layout="@layout/fragment_create" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.oishiweek_project.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_MenuPlanner"
+        android:name="com.example.oishiweek_project.ui.menuplanner.MenuPlannerFragment"
+        android:label="@string/menu_menuPlanner"
+        tools:layout="@layout/fragment_weekmenu" />
 </navigation>

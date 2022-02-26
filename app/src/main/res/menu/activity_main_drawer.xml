@@ -12,6 +12,11 @@
         <item
             android:id="@+id/nav_CreaRicetta"
             android:icon="@drawable/ic_baseline_add_circle_outline_24"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_createNew" />
+
+        <item
+            android:id="@+id/nav_MenuPlanner"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            android:title="@string/menu_menuPlanner" />
     </group>
 </menu>
